@@ -1,0 +1,148 @@
+{
+  "factcheck_evaluation_dataset": {
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-06-01",
+      "description": "Evaluation dataset for JINA AI fact-checking performance",
+      "total_samples": 50,
+      "categories": ["science", "history", "current_events", "statistics", "technology"]
+    },
+    "test_cases": [
+      {
+        "id": 1,
+        "category": "science",
+        "claim": "Water boils at 100 degrees Celsius at sea level.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Basic physics",
+        "language": "english"
+      },
+      {
+        "id": 2,
+        "category": "history",
+        "claim": "World War II ended in 1945.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 3,
+        "category": "science",
+        "claim": "The Earth is flat and not spherical.",
+        "ground_truth": false,
+        "difficulty": "easy",
+        "source": "Debunked conspiracy theory",
+        "language": "english"
+      },
+      {
+        "id": 4,
+        "category": "current_events",
+        "claim": "COVID-19 vaccines contain microchips for tracking people.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Debunked misinformation",
+        "language": "english"
+      },
+      {
+        "id": 5,
+        "category": "statistics",
+        "claim": "The global population reached 8 billion people in 2022.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "UN population data",
+        "language": "english"
+      },
+      {
+        "id": 6,
+        "category": "science",
+        "claim": "Human body temperature is normally around 98.6°F (37°C).",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Medical knowledge",
+        "language": "english"
+      },
+      {
+        "id": 7,
+        "category": "technology",
+        "claim": "The iPhone was first released by Apple in 2007.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Technology history",
+        "language": "english"
+      },
+      {
+        "id": 8,
+        "category": "science",
+        "claim": "Humans use only 10% of their brain capacity.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Debunked myth",
+        "language": "english"
+      },
+      {
+        "id": 9,
+        "category": "history",
+        "claim": "The Great Wall of China was built in a single dynasty.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Historical complexity",
+        "language": "english"
+      },
+      {
+        "id": 10,
+        "category": "science",
+        "claim": "Lightning never strikes the same place twice.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Weather mythology",
+        "language": "english"
+      },
+      {
+        "id": 11,
+        "category": "science",
+        "claim": "水は海面で摂氏100度で沸騰する。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "基本的な物理学",
+        "language": "japanese"
+      },
+      {
+        "id": 12,
+        "category": "history",
+        "claim": "第二次世界大戦は1945年に終了した。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "歴史的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 13,
+        "category": "science",
+        "claim": "地球は平らで球体ではない。",
+        "ground_truth": false,
+        "difficulty": "easy",
+        "source": "論破済みの陰謀論",
+        "language": "japanese"
+      },
+      {
+        "id": 14,
+        "category": "current_events",
+        "claim": "新型コロナワクチンには人を追跡するマイクロチップが含まれている。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "論破済みの誤情報",
+        "language": "japanese"
+      },
+      {
+        "id": 15,
+        "category": "statistics",
+        "claim": "世界人口は2022年に80億人に達した。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "国連人口データ",
+        "language": "japanese"
+      }
+    ]
+  }
+}

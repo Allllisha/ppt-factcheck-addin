@@ -4,8 +4,7 @@ node_modules/
 # Environment variables
 .env
 
-# API configuration
-src/config.js
+# API configuration (removed - now using environment variables)
 
 # Build outputs
 dist/

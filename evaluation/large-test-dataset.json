@@ -1,0 +1,913 @@
+{
+  "factcheck_evaluation_dataset": {
+    "metadata": {
+      "version": "2.0",
+      "created_date": "2024-06-01",
+      "description": "Large-scale evaluation dataset for JINA AI fact-checking performance",
+      "total_samples": 100,
+      "categories": ["science", "history", "current_events", "statistics", "technology", "health", "geography", "politics", "economics", "culture"]
+    },
+    "test_cases": [
+      {
+        "id": 1,
+        "category": "science",
+        "claim": "Water boils at 100 degrees Celsius at sea level.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Basic physics",
+        "language": "english"
+      },
+      {
+        "id": 2,
+        "category": "science",
+        "claim": "The speed of light in vacuum is approximately 299,792,458 meters per second.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Physics constant",
+        "language": "english"
+      },
+      {
+        "id": 3,
+        "category": "science",
+        "claim": "Humans share approximately 99% of their DNA with chimpanzees.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Genetics research",
+        "language": "english"
+      },
+      {
+        "id": 4,
+        "category": "science",
+        "claim": "The Earth is flat and not spherical.",
+        "ground_truth": false,
+        "difficulty": "easy",
+        "source": "Debunked conspiracy theory",
+        "language": "english"
+      },
+      {
+        "id": 5,
+        "category": "science",
+        "claim": "Humans use only 10% of their brain capacity.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Debunked myth",
+        "language": "english"
+      },
+      {
+        "id": 6,
+        "category": "science",
+        "claim": "Lightning never strikes the same place twice.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Weather mythology",
+        "language": "english"
+      },
+      {
+        "id": 7,
+        "category": "science",
+        "claim": "Gold has the chemical symbol Au.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Chemistry",
+        "language": "english"
+      },
+      {
+        "id": 8,
+        "category": "science",
+        "claim": "The human heart has four chambers.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Biology",
+        "language": "english"
+      },
+      {
+        "id": 9,
+        "category": "science",
+        "claim": "Vaccines cause autism.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Debunked medical myth",
+        "language": "english"
+      },
+      {
+        "id": 10,
+        "category": "science",
+        "claim": "The periodic table has 118 confirmed elements as of 2024.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Chemistry",
+        "language": "english"
+      },
+      {
+        "id": 11,
+        "category": "history",
+        "claim": "World War II ended in 1945.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 12,
+        "category": "history",
+        "claim": "The Berlin Wall fell in 1989.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 13,
+        "category": "history",
+        "claim": "The American Civil War ended in 1865.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 14,
+        "category": "history",
+        "claim": "Napoleon was born in France.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Born in Corsica",
+        "language": "english"
+      },
+      {
+        "id": 15,
+        "category": "history",
+        "claim": "The Great Wall of China was built in a single dynasty.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Historical complexity",
+        "language": "english"
+      },
+      {
+        "id": 16,
+        "category": "history",
+        "claim": "The Titanic sank in 1912.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 17,
+        "category": "history",
+        "claim": "The Renaissance began in Italy.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 18,
+        "category": "history",
+        "claim": "The ancient Library of Alexandria was destroyed in a single fire.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Historical complexity",
+        "language": "english"
+      },
+      {
+        "id": 19,
+        "category": "history",
+        "claim": "Christopher Columbus discovered America in 1492.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Indigenous peoples were already there",
+        "language": "english"
+      },
+      {
+        "id": 20,
+        "category": "history",
+        "claim": "The printing press was invented by Johannes Gutenberg.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 21,
+        "category": "current_events",
+        "claim": "COVID-19 vaccines contain microchips for tracking people.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Debunked misinformation",
+        "language": "english"
+      },
+      {
+        "id": 22,
+        "category": "current_events",
+        "claim": "5G networks spread COVID-19.",
+        "ground_truth": false,
+        "difficulty": "easy",
+        "source": "Debunked conspiracy theory",
+        "language": "english"
+      },
+      {
+        "id": 23,
+        "category": "current_events",
+        "claim": "Climate change is primarily caused by human activities.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Scientific consensus",
+        "language": "english"
+      },
+      {
+        "id": 24,
+        "category": "current_events",
+        "claim": "The 2024 Summer Olympics were held in Paris.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Recent event",
+        "language": "english"
+      },
+      {
+        "id": 25,
+        "category": "current_events",
+        "claim": "Electric vehicles produce zero emissions.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Manufacturing and electricity generation emissions",
+        "language": "english"
+      },
+      {
+        "id": 26,
+        "category": "statistics",
+        "claim": "The global population reached 8 billion people in 2022.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "UN population data",
+        "language": "english"
+      },
+      {
+        "id": 27,
+        "category": "statistics",
+        "claim": "China has the largest population in the world.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Demographic data",
+        "language": "english"
+      },
+      {
+        "id": 28,
+        "category": "statistics",
+        "claim": "Antarctica is the largest continent by area.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Asia is the largest",
+        "language": "english"
+      },
+      {
+        "id": 29,
+        "category": "statistics",
+        "claim": "The average human lifespan worldwide is over 70 years.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "WHO statistics",
+        "language": "english"
+      },
+      {
+        "id": 30,
+        "category": "statistics",
+        "claim": "More than half of the world's population lives in cities.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "UN urbanization data",
+        "language": "english"
+      },
+      {
+        "id": 31,
+        "category": "technology",
+        "claim": "The iPhone was first released by Apple in 2007.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Technology history",
+        "language": "english"
+      },
+      {
+        "id": 32,
+        "category": "technology",
+        "claim": "The internet was invented in the 1990s.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "ARPANET began in 1960s",
+        "language": "english"
+      },
+      {
+        "id": 33,
+        "category": "technology",
+        "claim": "Quantum computers will make all current encryption obsolete immediately.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Gradual transition expected",
+        "language": "english"
+      },
+      {
+        "id": 34,
+        "category": "technology",
+        "claim": "Artificial intelligence can currently pass the Turing test consistently.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Still debated in AI community",
+        "language": "english"
+      },
+      {
+        "id": 35,
+        "category": "technology",
+        "claim": "The first computer bug was an actual insect.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Grace Hopper's moth",
+        "language": "english"
+      },
+      {
+        "id": 36,
+        "category": "health",
+        "claim": "Human body temperature is normally around 98.6°F (37°C).",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Medical knowledge",
+        "language": "english"
+      },
+      {
+        "id": 37,
+        "category": "health",
+        "claim": "Drinking 8 glasses of water daily is necessary for everyone.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Individual needs vary",
+        "language": "english"
+      },
+      {
+        "id": 38,
+        "category": "health",
+        "claim": "Smoking causes lung cancer.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Medical consensus",
+        "language": "english"
+      },
+      {
+        "id": 39,
+        "category": "health",
+        "claim": "Vitamins from supplements are as effective as vitamins from food.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Bioavailability differs",
+        "language": "english"
+      },
+      {
+        "id": 40,
+        "category": "health",
+        "claim": "The human brain fully develops by age 25.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Neuroscience research",
+        "language": "english"
+      },
+      {
+        "id": 41,
+        "category": "geography",
+        "claim": "Mount Everest is the tallest mountain on Earth.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Geographic fact",
+        "language": "english"
+      },
+      {
+        "id": 42,
+        "category": "geography",
+        "claim": "The Amazon River is the longest river in the world.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Geographic measurement",
+        "language": "english"
+      },
+      {
+        "id": 43,
+        "category": "geography",
+        "claim": "Australia is both a country and a continent.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Geographic classification",
+        "language": "english"
+      },
+      {
+        "id": 44,
+        "category": "geography",
+        "claim": "The Sahara Desert is the largest desert in the world.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Antarctica is larger",
+        "language": "english"
+      },
+      {
+        "id": 45,
+        "category": "geography",
+        "claim": "Russia spans 11 time zones.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Geographic fact",
+        "language": "english"
+      },
+      {
+        "id": 46,
+        "category": "politics",
+        "claim": "The United States has 50 states.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Political fact",
+        "language": "english"
+      },
+      {
+        "id": 47,
+        "category": "politics",
+        "claim": "The United Nations was founded after World War II.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 48,
+        "category": "politics",
+        "claim": "All democracies use the same voting system.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Various systems exist",
+        "language": "english"
+      },
+      {
+        "id": 49,
+        "category": "politics",
+        "claim": "The European Union was established by the Treaty of Maastricht.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Political history",
+        "language": "english"
+      },
+      {
+        "id": 50,
+        "category": "politics",
+        "claim": "Presidential term limits exist in all democratic countries.",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "Varies by country",
+        "language": "english"
+      },
+      {
+        "id": 51,
+        "category": "economics",
+        "claim": "Bitcoin was created by Satoshi Nakamoto.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Cryptocurrency history",
+        "language": "english"
+      },
+      {
+        "id": 52,
+        "category": "economics",
+        "claim": "Inflation always indicates economic growth.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Economic complexity",
+        "language": "english"
+      },
+      {
+        "id": 53,
+        "category": "economics",
+        "claim": "The stock market always reflects the real economy.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Market dynamics",
+        "language": "english"
+      },
+      {
+        "id": 54,
+        "category": "economics",
+        "claim": "GDP measures all economic activity in a country.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Excludes informal economy",
+        "language": "english"
+      },
+      {
+        "id": 55,
+        "category": "economics",
+        "claim": "The Great Depression began in 1929.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Economic history",
+        "language": "english"
+      },
+      {
+        "id": 56,
+        "category": "culture",
+        "claim": "Shakespeare wrote 37 plays.",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "Literary scholarship",
+        "language": "english"
+      },
+      {
+        "id": 57,
+        "category": "culture",
+        "claim": "The Mona Lisa was painted by Leonardo da Vinci.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Art history",
+        "language": "english"
+      },
+      {
+        "id": 58,
+        "category": "culture",
+        "claim": "All cultures celebrate New Year on January 1st.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Cultural diversity",
+        "language": "english"
+      },
+      {
+        "id": 59,
+        "category": "culture",
+        "claim": "The Olympics originated in ancient Greece.",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "Historical fact",
+        "language": "english"
+      },
+      {
+        "id": 60,
+        "category": "culture",
+        "claim": "All religions believe in a single deity.",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "Religious diversity",
+        "language": "english"
+      },
+      {
+        "id": 61,
+        "category": "science",
+        "claim": "水は海面で摂氏100度で沸騰する。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "基本的な物理学",
+        "language": "japanese"
+      },
+      {
+        "id": 62,
+        "category": "science",
+        "claim": "地球は平らで球体ではない。",
+        "ground_truth": false,
+        "difficulty": "easy",
+        "source": "論破済みの陰謀論",
+        "language": "japanese"
+      },
+      {
+        "id": 63,
+        "category": "science",
+        "claim": "人間は脳の10％しか使っていない。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "論破済みの神話",
+        "language": "japanese"
+      },
+      {
+        "id": 64,
+        "category": "science",
+        "claim": "金の化学記号はAuである。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "化学",
+        "language": "japanese"
+      },
+      {
+        "id": 65,
+        "category": "science",
+        "claim": "人間の心臓には4つの部屋がある。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "生物学",
+        "language": "japanese"
+      },
+      {
+        "id": 66,
+        "category": "history",
+        "claim": "第二次世界大戦は1945年に終了した。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "歴史的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 67,
+        "category": "history",
+        "claim": "ベルリンの壁は1989年に崩壊した。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "歴史的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 68,
+        "category": "history",
+        "claim": "タイタニック号は1912年に沈没した。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "歴史的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 69,
+        "category": "history",
+        "claim": "ナポレオンはフランス生まれである。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "コルシカ島生まれ",
+        "language": "japanese"
+      },
+      {
+        "id": 70,
+        "category": "history",
+        "claim": "万里の長城は一つの王朝で建設された。",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "歴史の複雑性",
+        "language": "japanese"
+      },
+      {
+        "id": 71,
+        "category": "current_events",
+        "claim": "新型コロナワクチンには人を追跡するマイクロチップが含まれている。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "論破済みの誤情報",
+        "language": "japanese"
+      },
+      {
+        "id": 72,
+        "category": "current_events",
+        "claim": "5Gネットワークは新型コロナウイルスを拡散する。",
+        "ground_truth": false,
+        "difficulty": "easy",
+        "source": "論破済みの陰謀論",
+        "language": "japanese"
+      },
+      {
+        "id": 73,
+        "category": "current_events",
+        "claim": "気候変動は主に人間の活動によって引き起こされている。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "科学的コンセンサス",
+        "language": "japanese"
+      },
+      {
+        "id": 74,
+        "category": "current_events",
+        "claim": "2024年夏季オリンピックはパリで開催された。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "最近の出来事",
+        "language": "japanese"
+      },
+      {
+        "id": 75,
+        "category": "current_events",
+        "claim": "電気自動車は排出ガスを一切出さない。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "製造と発電の排出",
+        "language": "japanese"
+      },
+      {
+        "id": 76,
+        "category": "statistics",
+        "claim": "世界人口は2022年に80億人に達した。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "国連人口データ",
+        "language": "japanese"
+      },
+      {
+        "id": 77,
+        "category": "statistics",
+        "claim": "中国は世界で最も人口が多い国である。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "人口統計データ",
+        "language": "japanese"
+      },
+      {
+        "id": 78,
+        "category": "statistics",
+        "claim": "南極大陸は面積で最大の大陸である。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "アジアが最大",
+        "language": "japanese"
+      },
+      {
+        "id": 79,
+        "category": "statistics",
+        "claim": "世界の平均寿命は70歳を超えている。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "WHO統計",
+        "language": "japanese"
+      },
+      {
+        "id": 80,
+        "category": "statistics",
+        "claim": "世界人口の半分以上が都市部に住んでいる。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "国連都市化データ",
+        "language": "japanese"
+      },
+      {
+        "id": 81,
+        "category": "technology",
+        "claim": "iPhoneは2007年にAppleから最初にリリースされた。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "技術史",
+        "language": "japanese"
+      },
+      {
+        "id": 82,
+        "category": "technology",
+        "claim": "インターネットは1990年代に発明された。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "ARPANETは1960年代から",
+        "language": "japanese"
+      },
+      {
+        "id": 83,
+        "category": "technology",
+        "claim": "量子コンピュータは現在の暗号化を即座にすべて無効にする。",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "段階的移行が予想される",
+        "language": "japanese"
+      },
+      {
+        "id": 84,
+        "category": "technology",
+        "claim": "最初のコンピュータバグは実際の昆虫だった。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "グレース・ホッパーの蛾",
+        "language": "japanese"
+      },
+      {
+        "id": 85,
+        "category": "technology",
+        "claim": "人工知能は現在チューリングテストに一貫して合格できる。",
+        "ground_truth": false,
+        "difficulty": "hard",
+        "source": "AI界でまだ議論中",
+        "language": "japanese"
+      },
+      {
+        "id": 86,
+        "category": "health",
+        "claim": "人間の正常体温は約37度である。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "医学知識",
+        "language": "japanese"
+      },
+      {
+        "id": 87,
+        "category": "health",
+        "claim": "1日8杯の水を飲むことは誰にでも必要である。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "個人のニーズによって異なる",
+        "language": "japanese"
+      },
+      {
+        "id": 88,
+        "category": "health",
+        "claim": "喫煙は肺がんの原因となる。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "医学的コンセンサス",
+        "language": "japanese"
+      },
+      {
+        "id": 89,
+        "category": "health",
+        "claim": "サプリメントのビタミンは食品のビタミンと同じくらい効果的である。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "生物学的利用能が異なる",
+        "language": "japanese"
+      },
+      {
+        "id": 90,
+        "category": "health",
+        "claim": "人間の脳は25歳までに完全に発達する。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "神経科学研究",
+        "language": "japanese"
+      },
+      {
+        "id": 91,
+        "category": "geography",
+        "claim": "エベレスト山は地球上で最も高い山である。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "地理的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 92,
+        "category": "geography",
+        "claim": "アマゾン川は世界で最も長い川である。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "地理的測定",
+        "language": "japanese"
+      },
+      {
+        "id": 93,
+        "category": "geography",
+        "claim": "オーストラリアは国でもあり大陸でもある。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "地理的分類",
+        "language": "japanese"
+      },
+      {
+        "id": 94,
+        "category": "geography",
+        "claim": "サハラ砂漠は世界最大の砂漠である。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "南極大陸の方が大きい",
+        "language": "japanese"
+      },
+      {
+        "id": 95,
+        "category": "geography",
+        "claim": "ロシアは11の時間帯にまたがっている。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "地理的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 96,
+        "category": "culture",
+        "claim": "シェイクスピアは37の戯曲を書いた。",
+        "ground_truth": true,
+        "difficulty": "medium",
+        "source": "文学研究",
+        "language": "japanese"
+      },
+      {
+        "id": 97,
+        "category": "culture",
+        "claim": "モナリザはレオナルド・ダ・ヴィンチによって描かれた。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "美術史",
+        "language": "japanese"
+      },
+      {
+        "id": 98,
+        "category": "culture",
+        "claim": "すべての文化が1月1日に新年を祝う。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "文化的多様性",
+        "language": "japanese"
+      },
+      {
+        "id": 99,
+        "category": "culture",
+        "claim": "オリンピックは古代ギリシャで始まった。",
+        "ground_truth": true,
+        "difficulty": "easy",
+        "source": "歴史的事実",
+        "language": "japanese"
+      },
+      {
+        "id": 100,
+        "category": "culture",
+        "claim": "すべての宗教が一つの神を信じている。",
+        "ground_truth": false,
+        "difficulty": "medium",
+        "source": "宗教的多様性",
+        "language": "japanese"
+      }
+    ]
+  }
+}

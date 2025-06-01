@@ -1,0 +1,101 @@
+ID,Claim,Ground Truth,Prediction,Correct,Response Time (ms),Factuality,Category,Difficulty,Language,Error
+2,"The speed of light in vacuum is approximately 299,792,458 meters per second.",true,true,true,3813,1,science,medium,english,
+1,"Water boils at 100 degrees Celsius at sea level.",true,true,true,4713,1,science,easy,english,
+4,"The Earth is flat and not spherical.",false,false,true,4972,1,science,easy,english,
+3,"Humans share approximately 99% of their DNA with chimpanzees.",true,false,false,5414,0.95,science,medium,english,
+5,"Humans use only 10% of their brain capacity.",false,false,true,5415,1,science,medium,english,
+7,"Gold has the chemical symbol Au.",true,true,true,2479,1,science,easy,english,
+6,"Lightning never strikes the same place twice.",false,false,true,3275,1,science,medium,english,
+8,"The human heart has four chambers.",true,true,true,3931,1,science,easy,english,
+9,"Vaccines cause autism.",false,false,true,4495,,science,medium,english,
+10,"The periodic table has 118 confirmed elements as of 2024.",true,,false,30006,,science,medium,english,Timeout
+15,"The Great Wall of China was built in a single dynasty.",false,false,true,3509,1,history,hard,english,
+11,"World War II ended in 1945.",true,true,true,3555,1,history,easy,english,
+13,"The American Civil War ended in 1865.",true,true,true,4498,1,history,easy,english,
+14,"Napoleon was born in France.",false,false,true,4542,0.95,history,medium,english,
+12,"The Berlin Wall fell in 1989.",true,true,true,4586,1,history,easy,english,
+16,"The Titanic sank in 1912.",true,true,true,3629,1,history,easy,english,
+19,"Christopher Columbus discovered America in 1492.",false,false,true,4556,0.6,history,hard,english,
+17,"The Renaissance began in Italy.",true,true,true,4632,1,history,medium,english,
+20,"The printing press was invented by Johannes Gutenberg.",true,true,true,4641,0.95,history,medium,english,
+18,"The ancient Library of Alexandria was destroyed in a single fire.",false,,false,30002,,history,hard,english,Timeout
+21,"COVID-19 vaccines contain microchips for tracking people.",false,false,true,3922,1,current_events,medium,english,
+23,"Climate change is primarily caused by human activities.",true,true,true,4169,0.99,current_events,medium,english,
+22,"5G networks spread COVID-19.",false,false,true,4895,0.01,current_events,easy,english,
+25,"Electric vehicles produce zero emissions.",false,false,true,4914,0.75,current_events,medium,english,
+24,"The 2024 Summer Olympics were held in Paris.",true,,false,30002,,current_events,easy,english,Timeout
+28,"Antarctica is the largest continent by area.",false,false,true,3015,1,statistics,medium,english,
+26,"The global population reached 8 billion people in 2022.",true,true,true,3369,1,statistics,medium,english,
+30,"More than half of the world's population lives in cities.",true,true,true,3807,0.95,statistics,medium,english,
+27,"China has the largest population in the world.",true,,false,30001,,statistics,easy,english,Timeout
+29,"The average human lifespan worldwide is over 70 years.",true,,false,30004,,statistics,medium,english,Timeout
+31,"The iPhone was first released by Apple in 2007.",true,true,true,3340,1,technology,easy,english,
+32,"The internet was invented in the 1990s.",false,false,true,4239,1,technology,medium,english,
+35,"The first computer bug was an actual insect.",true,true,true,5160,0.95,technology,medium,english,
+33,"Quantum computers will make all current encryption obsolete immediately.",false,,false,30002,,technology,hard,english,Timeout
+34,"Artificial intelligence can currently pass the Turing test consistently.",false,,false,30002,,technology,hard,english,Timeout
+38,"Smoking causes lung cancer.",true,true,true,3778,0.99,health,easy,english,
+40,"The human brain fully develops by age 25.",true,true,true,4176,0.95,health,medium,english,
+37,"Drinking 8 glasses of water daily is necessary for everyone.",false,false,true,4937,0.95,health,medium,english,
+36,"Human body temperature is normally around 98.6°F (37°C).",true,false,false,5176,0.95,health,easy,english,
+39,"Vitamins from supplements are as effective as vitamins from food.",false,,false,30002,,health,medium,english,Timeout
+45,"Russia spans 11 time zones.",true,true,true,3443,1,geography,medium,english,
+43,"Australia is both a country and a continent.",true,true,true,3572,1,geography,easy,english,
+44,"The Sahara Desert is the largest desert in the world.",false,false,true,3859,1,geography,medium,english,
+41,"Mount Everest is the tallest mountain on Earth.",true,true,true,3918,1,geography,easy,english,
+42,"The Amazon River is the longest river in the world.",true,,false,30002,,geography,medium,english,Timeout
+46,"The United States has 50 states.",true,true,true,2979,1,politics,easy,english,
+50,"Presidential term limits exist in all democratic countries.",false,false,true,3273,0.95,politics,hard,english,
+48,"All democracies use the same voting system.",false,false,true,3375,1,politics,medium,english,
+49,"The European Union was established by the Treaty of Maastricht.",true,true,true,3692,1,politics,medium,english,
+47,"The United Nations was founded after World War II.",true,true,true,5862,1,politics,easy,english,
+51,"Bitcoin was created by Satoshi Nakamoto.",true,true,true,3269,0.99,economics,medium,english,
+55,"The Great Depression began in 1929.",true,true,true,3383,1,economics,easy,english,
+54,"GDP measures all economic activity in a country.",false,false,true,3817,0.95,economics,medium,english,
+52,"Inflation always indicates economic growth.",false,false,true,4281,0.95,economics,medium,english,
+53,"The stock market always reflects the real economy.",false,false,true,5389,0.95,economics,medium,english,
+58,"All cultures celebrate New Year on January 1st.",false,false,true,3493,1,culture,medium,english,
+60,"All religions believe in a single deity.",false,false,true,3535,1,culture,medium,english,
+57,"The Mona Lisa was painted by Leonardo da Vinci.",true,true,true,3776,1,culture,easy,english,
+56,"Shakespeare wrote 37 plays.",true,true,true,3831,0.95,culture,medium,english,
+59,"The Olympics originated in ancient Greece.",true,true,true,3960,1,culture,easy,english,
+64,"金の化学記号はAuである。",true,true,true,3006,1,science,easy,japanese,
+65,"人間の心臓には4つの部屋がある。",true,true,true,3058,1,science,easy,japanese,
+61,"水は海面で摂氏100度で沸騰する。",true,true,true,3979,1,science,easy,japanese,
+62,"地球は平らで球体ではない。",false,false,true,4321,1,science,easy,japanese,
+63,"人間は脳の10％しか使っていない。",false,false,true,4334,0.99,science,medium,japanese,
+66,"第二次世界大戦は1945年に終了した。",true,true,true,3263,1,history,easy,japanese,
+67,"ベルリンの壁は1989年に崩壊した。",true,true,true,3336,1,history,easy,japanese,
+68,"タイタニック号は1912年に沈没した。",true,true,true,3542,1,history,easy,japanese,
+69,"ナポレオンはフランス生まれである。",false,false,true,3921,0.95,history,medium,japanese,
+70,"万里の長城は一つの王朝で建設された。",false,,false,30002,,history,hard,japanese,Timeout
+74,"2024年夏季オリンピックはパリで開催された。",true,true,true,2792,1,current_events,easy,japanese,
+71,"新型コロナワクチンには人を追跡するマイクロチップが含まれている。",false,false,true,4139,1,current_events,medium,japanese,
+72,"5Gネットワークは新型コロナウイルスを拡散する。",false,,false,30002,,current_events,easy,japanese,Timeout
+73,"気候変動は主に人間の活動によって引き起こされている。",true,,false,30003,,current_events,medium,japanese,Timeout
+75,"電気自動車は排出ガスを一切出さない。",false,,false,30003,,current_events,medium,japanese,Timeout
+76,"世界人口は2022年に80億人に達した。",true,true,true,3561,1,statistics,medium,japanese,
+77,"中国は世界で最も人口が多い国である。",true,,false,30003,,statistics,easy,japanese,Timeout
+78,"南極大陸は面積で最大の大陸である。",false,,false,30004,,statistics,medium,japanese,Timeout
+79,"世界の平均寿命は70歳を超えている。",true,,false,30003,,statistics,medium,japanese,Timeout
+80,"世界人口の半分以上が都市部に住んでいる。",true,,false,30004,,statistics,medium,japanese,Timeout
+81,"iPhoneは2007年にAppleから最初にリリースされた。",true,true,true,3538,1,technology,easy,japanese,
+82,"インターネットは1990年代に発明された。",false,,false,30001,,technology,medium,japanese,Timeout
+83,"量子コンピュータは現在の暗号化を即座にすべて無効にする。",false,,false,30004,,technology,hard,japanese,Timeout
+84,"最初のコンピュータバグは実際の昆虫だった。",true,,false,30004,,technology,medium,japanese,Timeout
+85,"人工知能は現在チューリングテストに一貫して合格できる。",false,,false,30003,,technology,hard,japanese,Timeout
+88,"喫煙は肺がんの原因となる。",true,true,true,4721,0.99,health,easy,japanese,
+86,"人間の正常体温は約37度である。",true,,false,30002,,health,easy,japanese,Timeout
+87,"1日8杯の水を飲むことは誰にでも必要である。",false,,false,30001,,health,medium,japanese,Timeout
+89,"サプリメントのビタミンは食品のビタミンと同じくらい効果的である。",false,,false,30002,,health,medium,japanese,Timeout
+90,"人間の脳は25歳までに完全に発達する。",true,,false,30002,,health,medium,japanese,Timeout
+93,"オーストラリアは国でもあり大陸でもある。",true,true,true,2951,1,geography,easy,japanese,
+91,"エベレスト山は地球上で最も高い山である。",true,true,true,3050,1,geography,easy,japanese,
+95,"ロシアは11の時間帯にまたがっている。",true,true,true,3250,1,geography,medium,japanese,
+92,"アマゾン川は世界で最も長い川である。",true,,false,30002,,geography,medium,japanese,Timeout
+94,"サハラ砂漠は世界最大の砂漠である。",false,,false,30003,,geography,medium,japanese,Timeout
+100,"すべての宗教が一つの神を信じている。",false,false,true,3084,0.1,culture,medium,japanese,
+98,"すべての文化が1月1日に新年を祝う。",false,false,true,3157,1,culture,medium,japanese,
+97,"モナリザはレオナルド・ダ・ヴィンチによって描かれた。",true,true,true,3376,0.99,culture,easy,japanese,
+96,"シェイクスピアは37の戯曲を書いた。",true,true,true,3634,0.95,culture,medium,japanese,
+99,"オリンピックは古代ギリシャで始まった。",true,true,true,3905,1,culture,easy,japanese,

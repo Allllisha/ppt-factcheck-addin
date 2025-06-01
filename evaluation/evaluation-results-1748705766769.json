@@ -1,0 +1,223 @@
+{
+  "summary": {
+    "totalTests": 15,
+    "correctPredictions": 14,
+    "accuracy": 0.9333333333333333,
+    "precision": 1,
+    "recall": 1,
+    "f1Score": 1
+  },
+  "confusionMatrix": {
+    "truePositive": 8,
+    "falsePositive": 0,
+    "trueNegative": 6,
+    "falseNegative": 0
+  },
+  "performance": {
+    "avgResponseTime": 5133.333333333333,
+    "maxResponseTime": 27143,
+    "minResponseTime": 2927,
+    "avgFactuality": 0.9242857142857143,
+    "factualityStdDev": 0.2566741760541197
+  },
+  "detailedAnalysis": {
+    "categoryAccuracy": {
+      "science": 1,
+      "history": 0.6666666666666666,
+      "current_events": 1,
+      "statistics": 1,
+      "technology": 1
+    },
+    "difficultyAccuracy": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+    },
+    "languageAccuracy": {
+      "english": 0.9,
+      "japanese": 1
+    }
+  },
+  "rawResults": [
+    {
+      "id": 1,
+      "claim": "Water boils at 100 degrees Celsius at sea level.",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3602,
+      "factuality": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "language": "english"
+    },
+    {
+      "id": 2,
+      "claim": "World War II ended in 1945.",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3238,
+      "factuality": 1,
+      "category": "history",
+      "difficulty": "easy",
+      "language": "english"
+    },
+    {
+      "id": 3,
+      "claim": "The Earth is flat and not spherical.",
+      "groundTruth": false,
+      "prediction": false,
+      "correct": true,
+      "responseTime": 4208,
+      "factuality": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "language": "english"
+    },
+    {
+      "id": 4,
+      "claim": "COVID-19 vaccines contain microchips for tracking people.",
+      "groundTruth": false,
+      "prediction": false,
+      "correct": true,
+      "responseTime": 3748,
+      "factuality": 1,
+      "category": "current_events",
+      "difficulty": "medium",
+      "language": "english"
+    },
+    {
+      "id": 5,
+      "claim": "The global population reached 8 billion people in 2022.",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3352,
+      "factuality": 1,
+      "category": "statistics",
+      "difficulty": "medium",
+      "language": "english"
+    },
+    {
+      "id": 6,
+      "claim": "Human body temperature is normally around 98.6°F (37°C).",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3887,
+      "factuality": 0.95,
+      "category": "science",
+      "difficulty": "easy",
+      "language": "english"
+    },
+    {
+      "id": 7,
+      "claim": "The iPhone was first released by Apple in 2007.",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 2927,
+      "factuality": 1,
+      "category": "technology",
+      "difficulty": "easy",
+      "language": "english"
+    },
+    {
+      "id": 8,
+      "claim": "Humans use only 10% of their brain capacity.",
+      "groundTruth": false,
+      "prediction": false,
+      "correct": true,
+      "responseTime": 3759,
+      "factuality": 1,
+      "category": "science",
+      "difficulty": "medium",
+      "language": "english"
+    },
+    {
+      "id": 9,
+      "claim": "The Great Wall of China was built in a single dynasty.",
+      "groundTruth": false,
+      "prediction": null,
+      "correct": false,
+      "responseTime": 27143,
+      "factuality": null,
+      "category": "history",
+      "difficulty": "hard",
+      "language": "english"
+    },
+    {
+      "id": 10,
+      "claim": "Lightning never strikes the same place twice.",
+      "groundTruth": false,
+      "prediction": false,
+      "correct": true,
+      "responseTime": 3786,
+      "factuality": 1,
+      "category": "science",
+      "difficulty": "medium",
+      "language": "english"
+    },
+    {
+      "id": 11,
+      "claim": "水は海面で摂氏100度で沸騰する。",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3946,
+      "factuality": 0.99,
+      "category": "science",
+      "difficulty": "easy",
+      "language": "japanese"
+    },
+    {
+      "id": 12,
+      "claim": "第二次世界大戦は1945年に終了した。",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3533,
+      "factuality": 1,
+      "category": "history",
+      "difficulty": "easy",
+      "language": "japanese"
+    },
+    {
+      "id": 13,
+      "claim": "地球は平らで球体ではない。",
+      "groundTruth": false,
+      "prediction": false,
+      "correct": true,
+      "responseTime": 3561,
+      "factuality": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "language": "japanese"
+    },
+    {
+      "id": 14,
+      "claim": "新型コロナワクチンには人を追跡するマイクロチップが含まれている。",
+      "groundTruth": false,
+      "prediction": false,
+      "correct": true,
+      "responseTime": 2935,
+      "factuality": 0,
+      "category": "current_events",
+      "difficulty": "medium",
+      "language": "japanese"
+    },
+    {
+      "id": 15,
+      "claim": "世界人口は2022年に80億人に達した。",
+      "groundTruth": true,
+      "prediction": true,
+      "correct": true,
+      "responseTime": 3375,
+      "factuality": 1,
+      "category": "statistics",
+      "difficulty": "medium",
+      "language": "japanese"
+    }
+  ]
+}

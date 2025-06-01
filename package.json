@@ -14,6 +14,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
+    "build:vercel": "webpack --config webpack.production.js",
     "dev-server": "webpack serve --mode development",
     "lint": "office-addin-lint check",
     "lint:fix": "office-addin-lint fix",
@@ -23,7 +24,11 @@
     "start": "office-addin-debugging start manifest.xml",
     "stop": "office-addin-debugging stop manifest.xml",
     "validate": "office-addin-manifest validate manifest.xml",
-    "watch": "webpack --mode development --watch"
+    "validate:prod": "office-addin-manifest validate manifest-production.xml",
+    "watch": "webpack --mode development --watch",
+    "evaluate": "node --experimental-modules evaluation/evaluate-jina.js",
+    "evaluate:quick": "node --experimental-modules evaluation/evaluate-jina.js --quick",
+    "test:factcheck": "npm run evaluate"
   },
   "dependencies": {
     "core-js": "^3.36.0",

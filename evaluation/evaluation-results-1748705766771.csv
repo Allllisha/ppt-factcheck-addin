@@ -1,0 +1,16 @@
+ID,Claim,Ground Truth,Prediction,Correct,Response Time (ms),Factuality,Category,Difficulty,Language
+1,"Water boils at 100 degrees Celsius at sea level.",true,true,true,3602,1,science,easy,english
+2,"World War II ended in 1945.",true,true,true,3238,1,history,easy,english
+3,"The Earth is flat and not spherical.",false,false,true,4208,1,science,easy,english
+4,"COVID-19 vaccines contain microchips for tracking people.",false,false,true,3748,1,current_events,medium,english
+5,"The global population reached 8 billion people in 2022.",true,true,true,3352,1,statistics,medium,english
+6,"Human body temperature is normally around 98.6°F (37°C).",true,true,true,3887,0.95,science,easy,english
+7,"The iPhone was first released by Apple in 2007.",true,true,true,2927,1,technology,easy,english
+8,"Humans use only 10% of their brain capacity.",false,false,true,3759,1,science,medium,english
+9,"The Great Wall of China was built in a single dynasty.",false,,false,27143,,history,hard,english
+10,"Lightning never strikes the same place twice.",false,false,true,3786,1,science,medium,english
+11,"水は海面で摂氏100度で沸騰する。",true,true,true,3946,0.99,science,easy,japanese
+12,"第二次世界大戦は1945年に終了した。",true,true,true,3533,1,history,easy,japanese
+13,"地球は平らで球体ではない。",false,false,true,3561,1,science,easy,japanese
+14,"新型コロナワクチンには人を追跡するマイクロチップが含まれている。",false,false,true,2935,,current_events,medium,japanese
+15,"世界人口は2022年に80億人に達した。",true,true,true,3375,1,statistics,medium,japanese
